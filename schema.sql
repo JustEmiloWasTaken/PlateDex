@@ -136,7 +136,7 @@ begin
         'id',p.id,'plate',p.plate,'origin_country',p.origin_country,
         'origin_region',p.origin_region,'spotted_city',p.spotted_city,
         'spotted_region',p.spotted_region,'spotted_country',p.spotted_country,
-        'spotted_date',p.spotted_date,'rarity',p.rarity,'label',p.label
+        'spotted_date',p.spotted_date,'rarity',p.rarity,'label',p.label,'photo_path',p.photo_path
       ) order by p.created_at desc)
       from public.plates p where p.user_id=s.user_id
     ),'[]'::jsonb)
@@ -150,8 +150,8 @@ grant execute on function public.get_public_share(text) to anon,authenticated;
 -- Private photo bucket. Normal signed-in users can access only their own folder;
 -- admins can access all folders.
 insert into storage.buckets(id,name,public)
-values('plate-photos','plate-photos',false)
-on conflict(id) do update set public=false;
+values('plate-photos','plate-photos',true)
+on conflict(id) do update set public=true;
 
 drop policy if exists plate_photos_select on storage.objects;
 create policy plate_photos_select on storage.objects for select to authenticated
