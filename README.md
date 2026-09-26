@@ -1,30 +1,46 @@
-# PlateDex v4
+# PlateDex v4.1
 
-PlateDex v4 is prepared for:
-- Cloudflare Pages
-- Supabase Auth
-- Supabase Postgres + RLS
-- Supabase Storage
+PlateDex is a private license-plate collection app prepared for Supabase Auth/Postgres/Storage and Cloudflare Workers.
 
-## Build
+## Cloudflare Workers + Vite
+
+This version uses the official Cloudflare Vite plugin and `wrangler.jsonc`.
+The React/Vite build is deployed as Cloudflare Workers Static Assets with SPA fallback.
+
+### Local build
+
 ```bash
 npm install
 npm run build
 ```
 
-Cloudflare Pages:
-- Build command: `npm run build`
-- Output directory: `dist`
+### Local preview
 
-Add:
+```bash
+npm run preview
+```
+
+### Deploy
+
+```bash
+npm run deploy
+```
+
+### Cloudflare Workers Builds
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy`
+- Preview command: `npm run preview`
+
+### Required environment variables
+
+Set these in Cloudflare Workers → Settings → Variables and Secrets:
+
 - `VITE_SUPABASE_URL`
 - `VITE_SUPABASE_PUBLISHABLE_KEY`
 
-Do NOT put a Supabase secret/service-role key in this project.
+Never put a Supabase secret/service-role key in this frontend project.
 
 ## Supabase
-Run `supabase/schema.sql` in SQL Editor.
 
-Then create your first account in Authentication > Users and put that user's UUID into `public.profiles` as an admin. See `supabase/SETUP.md`.
-
-The app has no public signup screen. Friends are intended to be created manually by the administrator through Supabase Auth for this first version.
+See `supabase/SETUP.md` and `supabase/schema.sql`.
