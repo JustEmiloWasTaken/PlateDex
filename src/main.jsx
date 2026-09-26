@@ -59,7 +59,7 @@ function Dashboard({profile,setProfile}){
  {admin&&<button className={tab==="users"?"active":""} onClick={()=>setTab("users")}><Users size={16}/> Users</button>}
  <button className={tab==="shares"?"active":""} onClick={()=>setTab("shares")}><Share2 size={16}/> Shares</button>
  </nav><div className="account"><span className="version">v{APP_VERSION}</span><button className="profilebutton" onClick={()=>setProfileOpen(true)}><UserRound size={15}/>{profile.display_name}</button>{admin&&<Shield size={15}/>}<button onClick={()=>supabase.auth.signOut()} title="Sign out"><LogOut size={16}/></button></div></header>
- <main>{tab==="collection"&&<Collection owner={owner} admin={admin} onAdd={()=>setTab("add")}/>} {tab==="countries"&&<CountryChecklist owner={owner}/>} {tab==="add"&&<Editor ownerId={owner.id} onDone={()=>{setOwner(owner);setTab("collection")}/>} /> {tab==="users"&&admin&&<UsersPanel onOpen={openUser}/>} {tab==="shares"&&<Shares profile={profile}/>}</main>
+ <main>{tab==="collection"&&<Collection owner={owner} admin={admin} onAdd={()=>setTab("add")}/>} {tab==="countries"&&<CountryChecklist owner={owner}/>} {tab==="add"&&<Editor ownerId={owner.id} onDone={()=>{setOwner(owner);setTab("collection")}} /> {tab==="users"&&admin&&<UsersPanel onOpen={openUser}/>} {tab==="shares"&&<Shares profile={profile}/>}</main>
  {profileOpen&&<ProfileModal profile={profile} setProfile={setProfile} onClose={()=>setProfileOpen(false)}/>}</div>
 }
 

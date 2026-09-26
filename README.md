@@ -1,4 +1,4 @@
-# PlateDex v4.3.1
+# PlateDex v4.3.2
 
 PlateDex is a private license plate collection app built with React + Vite, Supabase, MapLibre/OpenFreeMap, and Cloudflare Workers.
 
