@@ -8,15 +8,57 @@ const supabase=createClient(import.meta.env.VITE_SUPABASE_URL,import.meta.env.VI
 const flags={Denmark:"🇩🇰",Norway:"🇳🇴",Sweden:"🇸🇪",Finland:"🇫🇮",Germany:"🇩🇪",Netherlands:"🇳🇱",Belgium:"🇧🇪",France:"🇫🇷",Spain:"🇪🇸",Italy:"🇮🇹","United Kingdom":"🇬🇧",Ireland:"🇮🇪","United States":"🇺🇸",Canada:"🇨🇦",Iceland:"🇮🇸","Faroe Islands":"🇫🇴",Greenland:"🇬🇱",China:"🇨🇳",Japan:"🇯🇵","South Korea":"🇰🇷",Taiwan:"🇹🇼","Hong Kong":"🇭🇰",Australia:"🇦🇺","New Zealand":"🇳🇿",Poland:"🇵🇱",Austria:"🇦🇹",Switzerland:"🇨🇭",Czechia:"🇨🇿",Slovakia:"🇸🇰",Estonia:"🇪🇪",Latvia:"🇱🇻",Lithuania:"🇱🇹",Portugal:"🇵🇹",Greece:"🇬🇷",Turkey:"🇹🇷",Brazil:"🇧🇷",Mexico:"🇲🇽","South Africa":"🇿🇦",India:"🇮🇳",Singapore:"🇸🇬",Thailand:"🇹🇭",Ukraine:"🇺🇦",Russia:"🇷🇺"};
 const rc=r=>(r||"Common").toLowerCase();
 
+class AppErrorBoundary extends React.Component {
+  constructor(props){ super(props); this.state={error:null}; }
+  static getDerivedStateFromError(error){ return {error}; }
+  componentDidCatch(error,info){ console.error("PlateDex render error",error,info); }
+  render(){
+    if(this.state.error) return <div className="center"><div className="errorbox"><h2>PlateDex could not load this page</h2><p>The app ran into an unexpected error.</p><pre>{this.state.error?.message||"Unknown error"}</pre><button className="primary" onClick={()=>location.reload()}>Reload</button></div></div>;
+    return this.props.children;
+  }
+}
+
 function App(){
- const [session,setSession]=useState(null),[profile,setProfile]=useState(null),[loading,setLoading]=useState(true);
+ const [session,setSession]=useState(null),[authLoading,setAuthLoading]=useState(true);
+ const [profile,setProfile]=useState(null),[profileLoading,setProfileLoading]=useState(false),[profileError,setProfileError]=useState("");
  const share=location.pathname.startsWith("/share/")?location.pathname.split("/")[2]:null;
- useEffect(()=>{supabase.auth.getSession().then(({data})=>setSession(data.session));const {data:{subscription}}=supabase.auth.onAuthStateChange((_,s)=>setSession(s));return()=>subscription.unsubscribe()},[]);
- useEffect(()=>{if(!session){setProfile(null);setLoading(false);return}supabase.from("profiles").select("*").eq("id",session.user.id).single().then(({data})=>{setProfile(data);setLoading(false)})},[session]);
- if(share)return <SharePage token={share}/>;
- if(loading)return <div className="center">Loading PlateDex…</div>;
- if(!session)return <Login/>;
- return <Dashboard profile={profile}/>;
+
+ useEffect(()=>{
+   let mounted=true;
+   supabase.auth.getSession().then(({data,error})=>{
+     if(!mounted)return;
+     if(error){console.error("getSession error",error);setProfileError(error.message||"Could not restore session");}
+     setSession(data?.session||null);setAuthLoading(false);
+   }).catch(error=>{if(mounted){console.error(error);setProfileError(error.message||"Could not restore session");setAuthLoading(false);}});
+   const {data:{subscription}}=supabase.auth.onAuthStateChange((_,s)=>{if(mounted)setSession(s||null);});
+   return()=>{mounted=false;subscription.unsubscribe();};
+ },[]);
+
+ useEffect(()=>{
+   let mounted=true;
+   async function loadProfile(){
+     if(!session){setProfile(null);setProfileLoading(false);return;}
+     setProfileLoading(true);setProfileError("");
+     const {data,error}=await supabase.from("profiles").select("*").eq("id",session.user.id).maybeSingle();
+     if(!mounted)return;
+     if(error){console.error("profile query error",error);setProfile(null);setProfileError(error.message||"Could not load your profile");}
+     else if(!data){setProfile(null);setProfileError("Your account is signed in, but no PlateDex profile exists yet. An administrator needs to create your profile.");}
+     else setProfile(data);
+     setProfileLoading(false);
+   }
+   loadProfile();
+   return()=>{mounted=false;};
+ },[session]);
+
+ if(share)return <AppErrorBoundary><SharePage token={share}/></AppErrorBoundary>;
+ if(authLoading||profileLoading)return <div className="center">Loading PlateDex…</div>;
+ if(!session)return <AppErrorBoundary><Login/></AppErrorBoundary>;
+ if(!profile)return <AppErrorBoundary><ProfileProblem message={profileError}/></AppErrorBoundary>;
+ return <AppErrorBoundary><Dashboard profile={profile}/></AppErrorBoundary>;
+}
+
+function ProfileProblem({message}){
+ return <div className="center"><div className="errorbox"><h2>Profile setup needed</h2><p>{message||"Your PlateDex profile could not be loaded."}</p><div className="modalactions"><button onClick={()=>location.reload()}>Try again</button><button className="primary" onClick={()=>supabase.auth.signOut()}>Sign out</button></div></div></div>;
 }
 
 function Login(){

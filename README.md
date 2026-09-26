@@ -1,4 +1,4 @@
-# PlateDex v4.1
+# PlateDex v4.2
 
 PlateDex is a private license-plate collection app prepared for Supabase Auth/Postgres/Storage and Cloudflare Workers.
 
