@@ -41,3 +41,7 @@
  header{position:sticky;top:0}.brand{font-size:19px}nav button{white-space:nowrap}.account .version{font-size:11px}.profilebutton{max-width:115px}.mapwrap{height:240px}.head h1{font-size:25px}
 }
 @media(min-width:721px) and (max-width:1000px){.legacydetail{grid-template-columns:1.05fr .95fr}.legacyInfoPane{padding:28px 24px}.legacyTitle h2{font-size:29px}}
+
+/* v4.6 — collection/share search + sorting */
+.collectiontools{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:10px;align-items:stretch;margin-bottom:18px}.collectiontools .search{margin-bottom:0}.sortselect{width:100%;background:#111a31;border:1px solid #2a3658;border-radius:11px;color:#eef2ff;padding:0 12px;outline:0}.sortselect:focus{border-color:#6d82ff}.sharepage .collectiontools{margin-bottom:20px}
+@media(max-width:720px){.collectiontools{grid-template-columns:1fr;gap:9px}.sortselect{min-height:46px}.collectiontools .search{min-height:46px}}
