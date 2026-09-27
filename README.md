@@ -29,3 +29,9 @@ Never put the Supabase service-role/secret key in frontend code.
 
 ## Map
 The Collection map uses MapLibre GL JS with the OpenFreeMap Liberty style. OpenFreeMap requires attribution, which MapLibre adds automatically.
+
+## v4.6.2
+- Advanced collection/share search: `origin=`, `spotted=`, `rarity=`, `plate=`, `label=`; filters can be combined.
+- Restores the last open app section after the browser/app is backgrounded or reloaded.
+- JPEG EXIF GPS and capture date can auto-fill empty latitude, longitude and date fields when metadata is present.
+- Special territories respect the selected region and appear above the normal country list while enabled.
