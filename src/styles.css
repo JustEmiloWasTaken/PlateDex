@@ -45,3 +45,12 @@
 /* v4.6 — collection/share search + sorting */
 .collectiontools{display:grid;grid-template-columns:minmax(0,1fr) 245px;gap:10px;align-items:stretch;margin-bottom:18px}.collectiontools .search{margin-bottom:0}.sortselect{width:100%;background:#111a31;border:1px solid #2a3658;border-radius:11px;color:#eef2ff;padding:0 12px;outline:0}.sortselect:focus{border-color:#6d82ff}.sharepage .collectiontools{margin-bottom:20px}
 @media(max-width:720px){.collectiontools{grid-template-columns:1fr;gap:9px}.sortselect{min-height:46px}.collectiontools .search{min-height:46px}}
+
+/* v5.0 — vector flags, regional plate checklist, mobile card details */
+.flagimg,.countryflagimg,.detailflag{display:inline-block;object-fit:cover;border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.10);flex:0 0 auto}.flagimg{width:25px;height:17px}.countryflagimg{width:24px;height:16px}.detailflag{width:34px;height:23px}.flagfallback{width:24px;text-align:center;color:#71809f}.title{align-items:center}.legacyTitle{align-items:center}.globalcounts{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.globalcounts b{color:#c9d4f4}.globalcounts span{color:#66738f}.countryblock{min-width:0}.countryrow{width:100%;color:inherit;text-align:left;font:inherit}.countryrow.expandable{cursor:pointer}.countryrow.expandable:hover{background:#151f39}.regioncount{font-size:11px;color:#9eb0ff;white-space:nowrap}.subregions{margin:5px 8px 8px 34px;border-left:2px solid #2b3a61;padding-left:10px;display:grid;gap:5px}.subregion{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#0e1629;border:1px solid #202d4a;border-radius:8px;padding:8px 10px;font-size:12px}.subregion.seen{border-color:#38567d}.specialgrid{margin-bottom:20px}
+@media(max-width:720px){
+ .backdrop{padding:18px 14px;align-items:center;justify-content:center;background:rgba(4,8,18,.62);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+ .legacydetail{width:min(100%,520px);height:min(88dvh,760px);max-height:88dvh;border:1px solid #344364;border-radius:24px;display:block;overflow:auto;background:#111a31;box-shadow:0 26px 80px rgba(0,0,0,.55)}
+ .legacyPhotoPane{aspect-ratio:4/3;border-radius:23px 23px 0 0;overflow:hidden}.legacyInfoPane{padding:20px 18px 26px}.detailclose{position:absolute;right:14px;top:14px;background:#111a31e8;backdrop-filter:blur(8px)}
+ .countryrow{gap:8px}.regioncount{margin-left:auto}.countryrow .check,.countryrow .unchecked{font-size:11px}.subregions{margin-left:20px}
+}

@@ -1,3 +1,13 @@
+# PlateDex v5.0
+
+PlateDex 5.0 adds a mobile-first UI, consistent SVG flags, plate-region checklists, and an Android Capacitor shell that stays synced with the deployed web app.
+
+## Android APK
+
+After pushing to GitHub, open **Actions → Build PlateDex Android APK → Run workflow** (or let the main-branch push trigger it). When the workflow finishes, download the `PlateDex-v5.0-Android` artifact and extract `app-debug.apk`. This APK is for direct personal installation/testing.
+
+The Android shell loads `https://platedex.emilo.workers.dev`, so normal web deployments update the app UI/data without reinstalling the APK. Native Android changes still require a new APK.
+
 # PlateDex v4.3.2
 
 PlateDex is a private license plate collection app built with React + Vite, Supabase, MapLibre/OpenFreeMap, and Cloudflare Workers.
