@@ -1,0 +1,1190 @@
+{
+  "version": "5.1.1",
+  "countries": [
+    {
+      "country": "Afghanistan",
+      "code": "AF",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Albania",
+      "code": "AL",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Algeria",
+      "code": "DZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Andorra",
+      "code": "AD",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Angola",
+      "code": "AO",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "code": "AG",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Argentina",
+      "code": "AR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Armenia",
+      "code": "AM",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Australia",
+      "code": "AU",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "state / territory"
+    },
+    {
+      "country": "Austria",
+      "code": "AT",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "registration district"
+    },
+    {
+      "country": "Azerbaijan",
+      "code": "AZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Bahamas",
+      "code": "BS",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Bahrain",
+      "code": "BH",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Bangladesh",
+      "code": "BD",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Barbados",
+      "code": "BB",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Belarus",
+      "code": "BY",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Belgium",
+      "code": "BE",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Belize",
+      "code": "BZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Benin",
+      "code": "BJ",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Bhutan",
+      "code": "BT",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Bolivia",
+      "code": "BO",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "code": "BA",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Botswana",
+      "code": "BW",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Brazil",
+      "code": "BR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Brunei",
+      "code": "BN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Bulgaria",
+      "code": "BG",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Burkina Faso",
+      "code": "BF",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Burundi",
+      "code": "BI",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Cabo Verde",
+      "code": "CV",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Cambodia",
+      "code": "KH",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Cameroon",
+      "code": "CM",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Canada",
+      "code": "CA",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "province / territory"
+    },
+    {
+      "country": "Central African Republic",
+      "code": "CF",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Chad",
+      "code": "TD",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Chile",
+      "code": "CL",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "China",
+      "code": "CN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "province-level plate prefix"
+    },
+    {
+      "country": "Colombia",
+      "code": "CO",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Comoros",
+      "code": "KM",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Congo",
+      "code": "CG",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Costa Rica",
+      "code": "CR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "code": "CI",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Croatia",
+      "code": "HR",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "registration city area"
+    },
+    {
+      "country": "Cuba",
+      "code": "CU",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Cyprus",
+      "code": "CY",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Czechia",
+      "code": "CZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "code": "CD",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Denmark",
+      "code": "DK",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Djibouti",
+      "code": "DJ",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Dominica",
+      "code": "DM",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Dominican Republic",
+      "code": "DO",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Ecuador",
+      "code": "EC",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Egypt",
+      "code": "EG",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "El Salvador",
+      "code": "SV",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "code": "GQ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Eritrea",
+      "code": "ER",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Estonia",
+      "code": "EE",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Eswatini",
+      "code": "SZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Ethiopia",
+      "code": "ET",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Fiji",
+      "code": "FJ",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Finland",
+      "code": "FI",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "France",
+      "code": "FR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Gabon",
+      "code": "GA",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Gambia",
+      "code": "GM",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Georgia",
+      "code": "GE",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Germany",
+      "code": "DE",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "registration district"
+    },
+    {
+      "country": "Ghana",
+      "code": "GH",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Greece",
+      "code": "GR",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Grenada",
+      "code": "GD",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Guatemala",
+      "code": "GT",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Guinea",
+      "code": "GN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Guinea-Bissau",
+      "code": "GW",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Guyana",
+      "code": "GY",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Haiti",
+      "code": "HT",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Honduras",
+      "code": "HN",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Hungary",
+      "code": "HU",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Iceland",
+      "code": "IS",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "India",
+      "code": "IN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "state / union territory (RTO family)"
+    },
+    {
+      "country": "Indonesia",
+      "code": "ID",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Iran",
+      "code": "IR",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Iraq",
+      "code": "IQ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Ireland",
+      "code": "IE",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Israel",
+      "code": "IL",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Italy",
+      "code": "IT",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Jamaica",
+      "code": "JM",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Japan",
+      "code": "JP",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "plate prefecture family"
+    },
+    {
+      "country": "Jordan",
+      "code": "JO",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Kazakhstan",
+      "code": "KZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Kenya",
+      "code": "KE",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Kiribati",
+      "code": "KI",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Kuwait",
+      "code": "KW",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Kyrgyzstan",
+      "code": "KG",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Laos",
+      "code": "LA",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Latvia",
+      "code": "LV",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Lebanon",
+      "code": "LB",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Lesotho",
+      "code": "LS",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Liberia",
+      "code": "LR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Libya",
+      "code": "LY",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Liechtenstein",
+      "code": "LI",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Lithuania",
+      "code": "LT",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Luxembourg",
+      "code": "LU",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Madagascar",
+      "code": "MG",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Malawi",
+      "code": "MW",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Malaysia",
+      "code": "MY",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Maldives",
+      "code": "MV",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Mali",
+      "code": "ML",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Malta",
+      "code": "MT",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Marshall Islands",
+      "code": "MH",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Mauritania",
+      "code": "MR",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Mauritius",
+      "code": "MU",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Mexico",
+      "code": "MX",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Micronesia",
+      "code": "FM",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Moldova",
+      "code": "MD",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Monaco",
+      "code": "MC",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Mongolia",
+      "code": "MN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Montenegro",
+      "code": "ME",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Morocco",
+      "code": "MA",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Mozambique",
+      "code": "MZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Myanmar",
+      "code": "MM",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Namibia",
+      "code": "NA",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Nauru",
+      "code": "NR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Nepal",
+      "code": "NP",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Netherlands",
+      "code": "NL",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "New Zealand",
+      "code": "NZ",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Nicaragua",
+      "code": "NI",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Niger",
+      "code": "NE",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Nigeria",
+      "code": "NG",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "North Korea",
+      "code": "KP",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "North Macedonia",
+      "code": "MK",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "registration area"
+    },
+    {
+      "country": "Norway",
+      "code": "NO",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "registration office area"
+    },
+    {
+      "country": "Oman",
+      "code": "OM",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Pakistan",
+      "code": "PK",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Palau",
+      "code": "PW",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Palestine",
+      "code": "PS",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Panama",
+      "code": "PA",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Papua New Guinea",
+      "code": "PG",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Paraguay",
+      "code": "PY",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Peru",
+      "code": "PE",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Philippines",
+      "code": "PH",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Poland",
+      "code": "PL",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "powiat / registration district"
+    },
+    {
+      "country": "Portugal",
+      "code": "PT",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Qatar",
+      "code": "QA",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Romania",
+      "code": "RO",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Russia",
+      "code": "RU",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Rwanda",
+      "code": "RW",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "code": "KN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Saint Lucia",
+      "code": "LC",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "code": "VC",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Samoa",
+      "code": "WS",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "San Marino",
+      "code": "SM",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "code": "ST",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Saudi Arabia",
+      "code": "SA",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Senegal",
+      "code": "SN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Serbia",
+      "code": "RS",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Seychelles",
+      "code": "SC",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Sierra Leone",
+      "code": "SL",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Singapore",
+      "code": "SG",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Slovakia",
+      "code": "SK",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Slovenia",
+      "code": "SI",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "registration area"
+    },
+    {
+      "country": "Solomon Islands",
+      "code": "SB",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Somalia",
+      "code": "SO",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "South Africa",
+      "code": "ZA",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "South Korea",
+      "code": "KR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "South Sudan",
+      "code": "SS",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Spain",
+      "code": "ES",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Sri Lanka",
+      "code": "LK",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Sudan",
+      "code": "SD",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Suriname",
+      "code": "SR",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Sweden",
+      "code": "SE",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Switzerland",
+      "code": "CH",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Syria",
+      "code": "SY",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Tajikistan",
+      "code": "TJ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Tanzania",
+      "code": "TZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "mainland / Zanzibar"
+    },
+    {
+      "country": "Thailand",
+      "code": "TH",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Timor-Leste",
+      "code": "TL",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Togo",
+      "code": "TG",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Tonga",
+      "code": "TO",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "code": "TT",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Tunisia",
+      "code": "TN",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Türkiye",
+      "code": "TR",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Turkmenistan",
+      "code": "TM",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Tuvalu",
+      "code": "TV",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Uganda",
+      "code": "UG",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Ukraine",
+      "code": "UA",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "United Arab Emirates",
+      "code": "AE",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "United Kingdom",
+      "code": "GB",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "DVLA memory-tag area"
+    },
+    {
+      "country": "United States",
+      "code": "US",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates",
+      "level": "state / DC"
+    },
+    {
+      "country": "Uruguay",
+      "code": "UY",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Uzbekistan",
+      "code": "UZ",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Vanuatu",
+      "code": "VU",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Vatican City",
+      "code": "VA",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Venezuela",
+      "code": "VE",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Vietnam",
+      "code": "VN",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Yemen",
+      "code": "YE",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Zambia",
+      "code": "ZM",
+      "regionalIdentification": true,
+      "scope": "current ordinary passenger plates"
+    },
+    {
+      "country": "Zimbabwe",
+      "code": "ZW",
+      "regionalIdentification": false,
+      "scope": "current ordinary passenger plates"
+    }
+  ]
+}
