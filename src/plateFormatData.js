@@ -1,4 +1,4 @@
-// PlateDex 5.2.1 — representative current ordinary-passenger plate layouts.
+// PlateDex 5.2.2 — representative current ordinary-passenger plate layouts for all 195 countries.
 // A = letter, 0 = digit, {REG} = geographic registration code/mark.
 // Some countries issue several legal layouts; in those cases the showcase uses a representative/common series.
 
@@ -56,7 +56,7 @@ export function showcaseMask(country,selectedCode){
 }
 
 export const exampleRegionCode={
-  Montenegro:"PG",Norway:"AA",Germany:"B",Austria:"W",Poland:"WA",Romania:"B",Croatia:"ZG",Slovenia:"LJ",Switzerland:"ZH",Ireland:"D",Türkiye:"34",India:"DL",China:"京",Russia:"77",Ukraine:"AA",Serbia:"BG","North Macedonia":"SK",Bulgaria:"C",Greece:"Ι",Vietnam:"29",Indonesia:"B",Iran:"11",Ecuador:"P",Peru:"A",Philippines:"N",Nigeria:"LAG",Ghana:"GR",Morocco:"1",Algeria:"16"
+  Montenegro:"PG",Norway:"AA",Germany:"B",Austria:"W",Poland:"WA",Romania:"B",Croatia:"ZG",Slovenia:"LJ",Switzerland:"ZH",Ireland:"D",Türkiye:"34",India:"DL",China:"京",Russia:"77",Ukraine:"AA",Serbia:"BG","North Macedonia":"SK",Bulgaria:"C",Greece:"Ι",Vietnam:"29",Indonesia:"B",Iran:"11",Ecuador:"P",Peru:"A",Philippines:"N",Nigeria:"LAG",Ghana:"GR",Morocco:"1",Algeria:"16",Belarus:"7"
 };
 
 export function formatParts(display,selectedCode){

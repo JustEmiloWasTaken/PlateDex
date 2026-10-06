@@ -1,0 +1,1181 @@
+{
+  "version": "5.2.2",
+  "countries": [
+    {
+      "country": "Afghanistan",
+      "iso2": "AF",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Albania",
+      "iso2": "AL",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Algeria",
+      "iso2": "DZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Andorra",
+      "iso2": "AD",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Angola",
+      "iso2": "AO",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "iso2": "AG",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Argentina",
+      "iso2": "AR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Armenia",
+      "iso2": "AM",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Australia",
+      "iso2": "AU",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "Austria",
+      "iso2": "AT",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Azerbaijan",
+      "iso2": "AZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Bahamas",
+      "iso2": "BS",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Bahrain",
+      "iso2": "BH",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Bangladesh",
+      "iso2": "BD",
+      "regionalIdentification": true,
+      "handling": "printed-region"
+    },
+    {
+      "country": "Barbados",
+      "iso2": "BB",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Belarus",
+      "iso2": "BY",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Belgium",
+      "iso2": "BE",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Belize",
+      "iso2": "BZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Benin",
+      "iso2": "BJ",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Bhutan",
+      "iso2": "BT",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Bolivia",
+      "iso2": "BO",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "iso2": "BA",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Botswana",
+      "iso2": "BW",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Brazil",
+      "iso2": "BR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Brunei",
+      "iso2": "BN",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Bulgaria",
+      "iso2": "BG",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Burkina Faso",
+      "iso2": "BF",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Burundi",
+      "iso2": "BI",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Cabo Verde",
+      "iso2": "CV",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Cambodia",
+      "iso2": "KH",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Cameroon",
+      "iso2": "CM",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Canada",
+      "iso2": "CA",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "Central African Republic",
+      "iso2": "CF",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Chad",
+      "iso2": "TD",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Chile",
+      "iso2": "CL",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "China",
+      "iso2": "CN",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Colombia",
+      "iso2": "CO",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Comoros",
+      "iso2": "KM",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Congo",
+      "iso2": "CG",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Costa Rica",
+      "iso2": "CR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Côte d'Ivoire",
+      "iso2": "CI",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Croatia",
+      "iso2": "HR",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Cuba",
+      "iso2": "CU",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Cyprus",
+      "iso2": "CY",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Czechia",
+      "iso2": "CZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "iso2": "CD",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Denmark",
+      "iso2": "DK",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Djibouti",
+      "iso2": "DJ",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Dominica",
+      "iso2": "DM",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Dominican Republic",
+      "iso2": "DO",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Ecuador",
+      "iso2": "EC",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Egypt",
+      "iso2": "EG",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "El Salvador",
+      "iso2": "SV",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Equatorial Guinea",
+      "iso2": "GQ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Eritrea",
+      "iso2": "ER",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Estonia",
+      "iso2": "EE",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Eswatini",
+      "iso2": "SZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Ethiopia",
+      "iso2": "ET",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Fiji",
+      "iso2": "FJ",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Finland",
+      "iso2": "FI",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "France",
+      "iso2": "FR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Gabon",
+      "iso2": "GA",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Gambia",
+      "iso2": "GM",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Georgia",
+      "iso2": "GE",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Germany",
+      "iso2": "DE",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Ghana",
+      "iso2": "GH",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Greece",
+      "iso2": "GR",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Grenada",
+      "iso2": "GD",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Guatemala",
+      "iso2": "GT",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Guinea",
+      "iso2": "GN",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Guinea-Bissau",
+      "iso2": "GW",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Guyana",
+      "iso2": "GY",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Haiti",
+      "iso2": "HT",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Honduras",
+      "iso2": "HN",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Hungary",
+      "iso2": "HU",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Iceland",
+      "iso2": "IS",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "India",
+      "iso2": "IN",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Indonesia",
+      "iso2": "ID",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Iran",
+      "iso2": "IR",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Iraq",
+      "iso2": "IQ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Ireland",
+      "iso2": "IE",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Israel",
+      "iso2": "IL",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Italy",
+      "iso2": "IT",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Jamaica",
+      "iso2": "JM",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Japan",
+      "iso2": "JP",
+      "regionalIdentification": true,
+      "handling": "printed-region"
+    },
+    {
+      "country": "Jordan",
+      "iso2": "JO",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Kazakhstan",
+      "iso2": "KZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Kenya",
+      "iso2": "KE",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Kiribati",
+      "iso2": "KI",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Kuwait",
+      "iso2": "KW",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Kyrgyzstan",
+      "iso2": "KG",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Laos",
+      "iso2": "LA",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Latvia",
+      "iso2": "LV",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Lebanon",
+      "iso2": "LB",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Lesotho",
+      "iso2": "LS",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Liberia",
+      "iso2": "LR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Libya",
+      "iso2": "LY",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Liechtenstein",
+      "iso2": "LI",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Lithuania",
+      "iso2": "LT",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Luxembourg",
+      "iso2": "LU",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Madagascar",
+      "iso2": "MG",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Malawi",
+      "iso2": "MW",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Malaysia",
+      "iso2": "MY",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Maldives",
+      "iso2": "MV",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Mali",
+      "iso2": "ML",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Malta",
+      "iso2": "MT",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Marshall Islands",
+      "iso2": "MH",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Mauritania",
+      "iso2": "MR",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Mauritius",
+      "iso2": "MU",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Mexico",
+      "iso2": "MX",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "Micronesia",
+      "iso2": "FM",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "Moldova",
+      "iso2": "MD",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Monaco",
+      "iso2": "MC",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Mongolia",
+      "iso2": "MN",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Montenegro",
+      "iso2": "ME",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Morocco",
+      "iso2": "MA",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Mozambique",
+      "iso2": "MZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Myanmar",
+      "iso2": "MM",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Namibia",
+      "iso2": "NA",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Nauru",
+      "iso2": "NR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Nepal",
+      "iso2": "NP",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Netherlands",
+      "iso2": "NL",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "New Zealand",
+      "iso2": "NZ",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Nicaragua",
+      "iso2": "NI",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Niger",
+      "iso2": "NE",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Nigeria",
+      "iso2": "NG",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "North Korea",
+      "iso2": "KP",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "North Macedonia",
+      "iso2": "MK",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Norway",
+      "iso2": "NO",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Oman",
+      "iso2": "OM",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Pakistan",
+      "iso2": "PK",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "Palau",
+      "iso2": "PW",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "Palestine",
+      "iso2": "PS",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Panama",
+      "iso2": "PA",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Papua New Guinea",
+      "iso2": "PG",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Paraguay",
+      "iso2": "PY",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Peru",
+      "iso2": "PE",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Philippines",
+      "iso2": "PH",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Poland",
+      "iso2": "PL",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Portugal",
+      "iso2": "PT",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Qatar",
+      "iso2": "QA",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Romania",
+      "iso2": "RO",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Russia",
+      "iso2": "RU",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Rwanda",
+      "iso2": "RW",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "iso2": "KN",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Saint Lucia",
+      "iso2": "LC",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "iso2": "VC",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Samoa",
+      "iso2": "WS",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "San Marino",
+      "iso2": "SM",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "iso2": "ST",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Saudi Arabia",
+      "iso2": "SA",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Senegal",
+      "iso2": "SN",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Serbia",
+      "iso2": "RS",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Seychelles",
+      "iso2": "SC",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Sierra Leone",
+      "iso2": "SL",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Singapore",
+      "iso2": "SG",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Slovakia",
+      "iso2": "SK",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Slovenia",
+      "iso2": "SI",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Solomon Islands",
+      "iso2": "SB",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Somalia",
+      "iso2": "SO",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "South Africa",
+      "iso2": "ZA",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "South Korea",
+      "iso2": "KR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "South Sudan",
+      "iso2": "SS",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Spain",
+      "iso2": "ES",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Sri Lanka",
+      "iso2": "LK",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Sudan",
+      "iso2": "SD",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Suriname",
+      "iso2": "SR",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Sweden",
+      "iso2": "SE",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Switzerland",
+      "iso2": "CH",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Syria",
+      "iso2": "SY",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Tajikistan",
+      "iso2": "TJ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Tanzania",
+      "iso2": "TZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Thailand",
+      "iso2": "TH",
+      "regionalIdentification": true,
+      "handling": "printed-region"
+    },
+    {
+      "country": "Timor-Leste",
+      "iso2": "TL",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Togo",
+      "iso2": "TG",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Tonga",
+      "iso2": "TO",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "iso2": "TT",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Tunisia",
+      "iso2": "TN",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Türkiye",
+      "iso2": "TR",
+      "regionalIdentification": true,
+      "handling": "automatic-or-live"
+    },
+    {
+      "country": "Turkmenistan",
+      "iso2": "TM",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Tuvalu",
+      "iso2": "TV",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Uganda",
+      "iso2": "UG",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Ukraine",
+      "iso2": "UA",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso2": "AE",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "United Kingdom",
+      "iso2": "GB",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "United States",
+      "iso2": "US",
+      "regionalIdentification": true,
+      "handling": "issuer-visible"
+    },
+    {
+      "country": "Uruguay",
+      "iso2": "UY",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Uzbekistan",
+      "iso2": "UZ",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Vanuatu",
+      "iso2": "VU",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Vatican City",
+      "iso2": "VA",
+      "regionalIdentification": false,
+      "handling": "none"
+    },
+    {
+      "country": "Venezuela",
+      "iso2": "VE",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Vietnam",
+      "iso2": "VN",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Yemen",
+      "iso2": "YE",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Zambia",
+      "iso2": "ZM",
+      "regionalIdentification": true,
+      "handling": "regional-selector-with-global-rules"
+    },
+    {
+      "country": "Zimbabwe",
+      "iso2": "ZW",
+      "regionalIdentification": false,
+      "handling": "none"
+    }
+  ],
+  "summary": {
+    "countries": 195,
+    "regional": 103,
+    "national": 92,
+    "unclassified": 0
+  }
+}

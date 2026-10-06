@@ -1,62 +1,50 @@
-# PlateDex v5.2.1
+# PlateDex v5.2.2
 
-PlateDex 5.2.1 adds independent checklist columns, Platepedia, and automatic region decoding for supported plate systems. Existing Supabase data/schema remain compatible.
+PlateDex is a private license-plate collection app built with React + Vite, Supabase, MapLibre/OpenFreeMap, Cloudflare Workers and an optional Capacitor Android shell.
 
-# PlateDex v5.1
+## v5.2.2
 
-PlateDex 5.1 adds a mobile-first UI, consistent SVG flags, plate-region checklists, and an Android Capacitor shell that stays synced with the deployed web app.
+- Platepedia has explicit coverage for all 195 sovereign-state entries used by PlateDex.
+- Every country has a current ordinary-passenger plate layout entry.
+- Every country has an explicit regional-decoding mode: automatic serial decoder, issuer/printed-region handling, regional selector, or not applicable.
+- Regional countries always expose their registration-area catalogue instead of appearing as missing.
+- Plate-code chips remain clickable and update the visual plate showcase when a reliable code table is available.
+- The global PlateGeo rule loader now has jsDelivr + raw GitHub fallbacks and a more flexible nested-rule parser.
+- Germany and Austria detailed district data use redundant CDN/raw sources; Poland detailed county data does the same.
+- Added local decoders for China, India and Belarus in addition to the existing Montenegro, Türkiye, Romania, Croatia, Slovenia, Switzerland and Ireland decoders.
+- Existing Supabase schema and stored plates remain compatible.
+
+`src/platepedia-coverage.json` is a 195-entry completeness audit. `unclassified` must remain `0`.
+
+## v5.2 / v5.2.1
+
+- Independent desktop checklist columns.
+- Platepedia encyclopedia tab.
+- Hidden Platepedia scrollbars while preserving normal scrolling.
+- Interactive plate-format showcase.
+- Automatic region decoding where the typed registration reliably carries the geographic identifier.
+
+## Regional-data rule
+
+PlateDex only treats a country as regionally identifiable when its current ordinary passenger plate itself carries a meaningful geographic issuer/registration origin. Administrative regions alone do not qualify. Countries such as Denmark, Italy and modern Spain therefore do not receive an artificial regional checklist.
+
+Some jurisdictions identify geography by the plate design or by separately printed issuer text rather than by characters inside the serial. PlateDex deliberately uses an area selector for those cases instead of inventing an automatic decoder.
 
 ## Android APK
 
-After pushing to GitHub, open **Actions → Build PlateDex Android APK → Run workflow** (or let the main-branch push trigger it). When the workflow finishes, download the `PlateDex-v5.1-Android` artifact and extract `app-debug.apk`. This APK is for direct personal installation/testing.
-
-The Android shell loads `https://platedex.emilo.workers.dev`, so normal web deployments update the app UI/data without reinstalling the APK. Native Android changes still require a new APK.
-
-# PlateDex v4.3.2
-
-PlateDex is a private license plate collection app built with React + Vite, Supabase, MapLibre/OpenFreeMap, and Cloudflare Workers.
-
-## v4.3 changes
-- Restored the v3-style Collection UI: large cards, 3-column layout, rarity borders, real interactive map, Hide/Show map.
-- Added Country Checklist for 195 countries with continent percentages and spotted/not-spotted checkmarks.
-- Added Special Territories & Dependencies section (tracked separately from the 195-country percentages).
-- Added Profile modal with editable display name.
-- Added profile share links using the existing secure share system.
-- Kept private notes and exact coordinates out of public share pages.
-- Kept Supabase auth, Users/admin, Add/Edit/Delete, Storage, Shares, and Cloudflare Vite/Workers setup.
+The Android shell loads `https://platedex.emilo.workers.dev`, so ordinary web deployments update the app UI/data without reinstalling the APK. Native Android changes still require a new APK.
 
 ## Cloudflare Workers Builds
-Build command:
-`npm run build`
 
-Deploy command:
-`npx wrangler deploy`
+Build command: `npm run build`
 
-Preview command:
-`npm run preview`
+Deploy command: `npx wrangler deploy`
+
+Preview command: `npm run preview`
 
 ## Environment variables
+
 - `VITE_SUPABASE_URL`
 - `VITE_SUPABASE_PUBLISHABLE_KEY`
 
 Never put the Supabase service-role/secret key in frontend code.
-
-## Map
-The Collection map uses MapLibre GL JS with the OpenFreeMap Liberty style. OpenFreeMap requires attribution, which MapLibre adds automatically.
-
-## v4.6.2
-- Advanced collection/share search: `origin=`, `spotted=`, `rarity=`, `plate=`, `label=`; filters can be combined.
-- Restores the last open app section after the browser/app is backgrounded or reloaded.
-- JPEG EXIF GPS and capture date can auto-fill empty latitude, longitude and date fields when metadata is present.
-- Special territories respect the selected region and appear above the normal country list while enabled.
-
-
-## 5.1 regional checklist data note
-The regional checklist now uses a conservative, plate-system-first dataset. Italy and Spain were removed because ordinary current national serials do not encode a geographic registration area. Germany and Poland are temporarily omitted from the UI rather than showing incorrect state/voivodeship counts; their district-level code datasets require a dedicated verified import. Türkiye (81 province codes) and Norway (official Statens vegvesen issuing areas) were added. The UI total is calculated only from entries currently present in the verified dataset.
-
-
-## PlateDex 5.1.1 regional checklist
-
-The regional checklist now has an explicit current-ordinary-plate classification for all 195 sovereign states used by PlateDex. Countries whose normal current passenger plates do not encode geography are excluded. Germany and Austria use detailed registration-district data from `openpotato/kfz-kennzeichen`; Poland uses the current county dataset from `open-admin-data/poland-administrative-divisions`. These detailed lists are loaded at runtime and cached by the browser.
-
-Important examples fixed from 5.0: Denmark, Italy and Spain do not receive regional checklists; Germany is not reduced to 16 states; Poland is not reduced to 16 voivodeships; Austria is not reduced to 9 states.
