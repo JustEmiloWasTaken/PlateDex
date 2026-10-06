@@ -1,3 +1,7 @@
+# PlateDex v5.2
+
+PlateDex 5.2 adds independent checklist columns, Platepedia, and automatic region decoding for supported plate systems. Existing Supabase data/schema remain compatible.
+
 # PlateDex v5.1
 
 PlateDex 5.1 adds a mobile-first UI, consistent SVG flags, plate-region checklists, and an Android Capacitor shell that stays synced with the deployed web app.
