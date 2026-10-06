@@ -1,6 +1,6 @@
-# PlateDex v5.2
+# PlateDex v5.2.1
 
-PlateDex 5.2 adds independent checklist columns, Platepedia, and automatic region decoding for supported plate systems. Existing Supabase data/schema remain compatible.
+PlateDex 5.2.1 adds independent checklist columns, Platepedia, and automatic region decoding for supported plate systems. Existing Supabase data/schema remain compatible.
 
 # PlateDex v5.1
 
